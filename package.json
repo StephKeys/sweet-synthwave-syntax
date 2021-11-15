@@ -1,7 +1,7 @@
 {
   "name": "sweet-synthwave-syntax",
   "theme": "syntax",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Sweet Synthwave is a syntax theme based on Outrun color scheme for sublime text and Pink Pansy syntax theme for Atom",
   "keywords": [
     "pink",
