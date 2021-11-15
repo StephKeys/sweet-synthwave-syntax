@@ -1,0 +1,27 @@
+
+// Tweaks for Github HunkView
+
+.github-HunkView-line {
+  &.is-added {
+    .github-HunkView-lineContent {
+      background-color: #bceac8;
+    }
+    &.is-selected {
+      .github-HunkView-lineContent {
+        background-color: hsl(132, 56%, 74%);
+      }
+    }
+  }
+}
+
+.github-FilePatchView:focus {
+  .github-HunkView-line {
+    &.is-added {
+      &.is-selected {
+        .github-HunkView-lineContent {
+          background-color: hsl(131, 56%, 74%);
+        }
+      }
+    }
+  }
+}
